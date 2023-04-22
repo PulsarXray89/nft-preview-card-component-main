@@ -1,0 +1,113 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* MAIN CONTAINER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* CARD */
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height: 75vh;
+    width: 45vh;
+    min-width: 375px;
+}
+
+.card-item {
+    min-height: 0;
+}
+
+/* CARD HEADER */
+
+.card-header {
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.header-img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+/* CARD BODY */
+
+.card-body {
+    padding: 0 5% 5%;
+}
+
+.body-heading {
+    font-weight: 600;
+}
+
+.body-heading:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.body-text {
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.data-container {
+    display: flex;
+    gap: 9.5rem;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+/* CARD FOOTER */
+
+.rule-container {
+    padding: 0 5%;
+}
+
+.rule {
+    border-color: hsl(215, 32%, 27%);
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5% 5%;
+}
+
+.footer-img {
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 13%;
+}
+
+.footer-text {
+    font-weight: 300;
+}
+
+.creation-of {
+    color: hsl(215, 51%, 70%);
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
