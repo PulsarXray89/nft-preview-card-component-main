@@ -65,7 +65,7 @@ body {
 
 .data-container {
     display: flex;
-    gap: 9.5rem;
+    justify-content: space-between;
 }
 
 .price {
